@@ -16,25 +16,26 @@ Deploy an Nginx web server using Docker, host a static website, configure virtua
 ```bash
 git clone https://github.com/khushheee/CODSOFT_TASK3.git
 cd CODSOFT_TASK3
+```
 
 ### 2. Build Docker Image
 
-docker build -t codsoft-nginx-task3 .
+```bash docker build -t codsoft-nginx-task3 .```
 
 ### 3. Run Docker Container
 
-docker run -d -p 8080:80 --name nginx-task3 codsoft-nginx-task3
+```bash docker run -d -p 8080:80 --name nginx-task3 codsoft-nginx-task3 ```
 
 ### 4. Access the Website
 
-http://localhost:8080
+```bash http://localhost:8080 ```
 
 ### 5. check container logs
 
-docker logs nginx-task3
+```bash docker logs nginx-task3 ```
 
 ### 6. Stop and Remove Container
 
-docker stop nginx-task3
-docker rm nginx-task3
+```bash docker stop nginx-task3 ```
+```bash docker rm nginx-task3 ```
 
